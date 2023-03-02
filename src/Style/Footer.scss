@@ -1,0 +1,168 @@
+@import "../Style/Variable.scss";
+
+* {
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.head_container {
+  margin: 0 auto;
+  max-width: 98%;
+  width: 1920px;
+}
+.content_container {
+  margin: 0 auto;
+  max-width: 98%;
+  width: 1088px;
+}
+
+/* Footer Section */
+.footer-sec {
+    background-color: #f2f2f2;
+    margin-top: 120px;
+    border-bottom: 2px solid #DFEAF1;
+  }
+
+  .logo{
+    width: 194px !important;
+    height: 92px !important;
+  }
+  
+  .footer-head-sec {
+    padding-top: 50px;
+    
+  }
+  
+  .email-txt {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Montserrat-Regular;
+    color: #707070;
+  }
+  
+  .email-content-sec {
+    padding-top: 20px;
+  }
+  
+  .email-id {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Montserrat-Regular;
+    color: #405cfb;
+  }
+  
+  .email-sub-txt {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Montserrat-Regular;
+    color: #707070;
+    padding-top: 20px;
+    width: 350px;
+  }
+  
+  .company-logo-img {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  
+  .privacy-sec {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Montserrat-Regular;
+    color: #707070;
+    padding-bottom: 40px;
+  }
+  
+  .grid-sec {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .email-footer-sec{
+   /*  border: 2px solid #e4e3e3 !important; */
+    border-radius: 10px !important;
+    width: 360px !important; 
+    height: 40px !important;
+  } 
+  
+   .right-grid-sec{
+  margin-bottom: 20px ;
+  } 
+  
+  .right-grid-head-txt{
+    font-size: 24px !important;
+    line-height: 28px !important;
+  font-family: Montserrat-Bold !important;
+  color: $txt-color !important;
+  margin-bottom: 20px !important;
+  }
+  
+  .subscribe_btn {
+    width: 370px !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+    font-family: Montserrat-Medium !important;
+    background-color: #4692fc !important;
+    border-radius: 10px !important;
+    height: 50px;
+  }
+  
+  .social-media-icon{
+  margin-left: 30px;
+  margin-top: 35px;
+  }
+  
+  .facebook-icon{
+    margin-top: 35px;
+  }
+  
+  /* Footer Section Over */
+  
+  /* CopyRight Sec */
+  .copyright-sec{
+  background-color: #f2f2f2;
+  }
+  
+  .copyright-sec .copyright-txt{
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Montserrat-Light;
+  color: #707070;
+  text-align: center;
+  padding: 15px;
+  }
+  .logo-stripe{
+    width:36.53px !important;
+    height:15.61px !important;
+  }
+  
+  .logo-americanexpress{
+  width: 33.57px !important;
+  height: 23.17px !important;
+  }
+  
+  .logo-mastercard{
+  width: 33.56px !important;
+  height: 20.56px !important;
+  }
+  
+  .logo-visa{
+  width: 39.61px !important;
+  height: 13.01px !important;
+  }
+  
+  .logo-paypal{
+  width: 51.29px !important;
+  height: 13.82px !important;
+  }
+  
+.social-media-sec{
+  display: flex !important;
+}
+
+  /* CopyRight Sec Over */

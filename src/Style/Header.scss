@@ -1,0 +1,74 @@
+@import "../Style/Variable.scss";
+/* Menu bar Section */
+
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    box-shadow: none !important;
+    background-color: $white-color !important;
+    color: black !important;
+  }
+  
+  .css-1kkpk3h-MuiButtonBase-root-MuiButton-root {
+    color: #373737 !important;
+    line-height: 24px !important;
+    font-family: Montserrat-Regular !important;
+    font-size: 16px !important;
+  }
+  
+  .css-1kkpk3h-MuiButtonBase-root-MuiButton-root:active {
+    color: #7cc2f0 !important;
+  }
+  
+  .css-hyum1k-MuiToolbar-root {
+    justify-content: space-between !important;
+  }
+  
+  .nav .login_btn {
+    background-color: $btn-background-color !important;
+    height: 40px !important;
+    border-radius: 8px !important;
+    font-size: 14px !important;
+    line-height: 24px !important;
+    font-family: Montserrat-Medium !important;
+    /* font-family: Montserrat-Regular !important; */
+  }
+  
+  .css-hyum1k-MuiToolbar-root {
+    padding-left: 9px !important;
+    /* padding-right: 9px !important; */
+  }
+  
+  .logo{
+    width: 194px !important;
+    height: 92px !important;
+  }
+
+
+
+  .search_icon {
+    border: 1px solid #c6cefc;
+    border-radius: 9px !important;
+    padding: 10px;
+  }
+  
+  .css-96uuyl {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  
+
+  
+  .head-grid {
+    direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .head-grid .menu-grid {
+    direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  
+  /* Menu bar Section Over */
